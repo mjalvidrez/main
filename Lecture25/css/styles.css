@@ -2,66 +2,7 @@
     font-size: xx-large;
 }
 
-.mybox{
-    /* box sizing */
-    position: relative;
-    box-sizing: border-box;
-    height: 150px;
-
-    /* detailing the box */
-    background-color: gray;
-    border-style: solid;
-    border-color: black;
-    float: left;
-    padding-top: 50px;
-    margin: 20px;
-}
-
-#text {
-    /* position */
-    position: absolute;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    top: 0px;
-    right: 0px;
-
-    /* styling  */
-    background-color: lightgray;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
-
-/*
- Setting up the media queries
- paramters are min of 767px
- between 768px and 991px
- and max of 992px
-*/
-@media (max-width: 767px){
-    .mybox{
-        width: calc(100% - 40px);
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-    #div1{
-        width: calc(50% - 40px);
-    }
-
-    #div2{
-        width: calc(50% - 40px);
-    }
-    #div3{
-        width: calc(100% - 40px);
-    }
-
-}
-
-@media (min-width: 992px) {
-    .mybox{
-        width: calc(33% - 40px);
-    }
+#mytext{
+    background-color: rgb(134, 62, 62);
+    margin: 5px;
 }
