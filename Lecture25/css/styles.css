@@ -2,6 +2,10 @@
     font-size: xx-large;
 }
 
+#themenu{
+    text-align: center;
+}
+
 #mytext{
     background-color: rgb(134, 62, 62);
     margin: 5px;
